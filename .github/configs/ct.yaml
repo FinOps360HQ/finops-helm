@@ -1,0 +1,8 @@
+remote: origin
+target-branch: main
+chart-dirs:
+  - charts
+chart-repos:
+  - finops360=https://FinOps360HQ.github.io/finops-helm
+  - prometheus-community=https://prometheus-community.github.io/helm-charts
+helm-extra-args: --timeout 600s

@@ -9,7 +9,7 @@ dependencies:
     repository: https://prometheus-community.github.io/helm-charts
   - name: kube-service-selectors
     version: "1.0.8"
-    repository: file://../kube-service-selectors/
+    repository: https://finops360hq.github.io/finops-helm
 maintainers:
   - name: finops360
     email: info@finops360.ru

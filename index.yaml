@@ -1,0 +1,35 @@
+apiVersion: v1
+entries:
+  kube-cost-metrics-collector:
+  - apiVersion: v2
+    created: "2024-12-12T20:13:14.688642946Z"
+    dependencies:
+    - name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 17.0.2
+    - name: kube-service-selectors
+      repository: file://../kube-service-selectors/
+      version: 1.0.8
+    description: FinOps 360 Kubernetes metrics collector.
+    digest: 126195930c0da6a644d706fff876145177c1030ef64d9c9597d04d53a9ffdc2a
+    maintainers:
+    - email: info@finops360.ru
+      name: finops360
+    name: kube-cost-metrics-collector
+    type: application
+    urls:
+    - https://github.com/FinOps360HQ/finops-helm/releases/download/kube-cost-metrics-collector-0.1.8/kube-cost-metrics-collector-0.1.8.tgz
+    version: 0.1.8
+  kube-service-selectors:
+  - apiVersion: v2
+    created: "2024-12-12T20:13:14.792065776Z"
+    digest: 60cb148ddfac1f1c0c46ea6303667192708e566e464888772bbf82e23f2dd2d3
+    maintainers:
+    - email: info@finops360.ru
+      name: finops360
+    name: kube-service-selectors
+    type: application
+    urls:
+    - https://github.com/FinOps360HQ/finops-helm/releases/download/kube-service-selectors-1.0.8/kube-service-selectors-1.0.8.tgz
+    version: 1.0.8
+generated: "2024-12-12T20:13:14.792072529Z"

@@ -4,10 +4,10 @@ prometheusScrape: true
 replicaCount: 1
 
 image:
-  repository: FinOps360HQ/kube-service-selectors
+  repository: cr.yandex/crp19t375ukhvkg85dk0/kube-service-selectors
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "0.1.0"
+  tag: "0.0.1"
 
 imagePullSecrets: []
 

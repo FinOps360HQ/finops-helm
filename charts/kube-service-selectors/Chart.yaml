@@ -1,7 +1,7 @@
 apiVersion: v2
 name: kube-service-selectors
 type: application
-version: 1.0.6
+version: 1.0.7
 maintainers:
   - name: finops360
     email: info@finops360.ru

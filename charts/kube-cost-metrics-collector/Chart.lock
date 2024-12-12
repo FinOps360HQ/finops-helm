@@ -1,0 +1,9 @@
+dependencies:
+- name: prometheus
+  repository: https://prometheus-community.github.io/helm-charts
+  version: 17.0.2
+- name: kube-service-selectors
+  repository: file://../kube-service-selectors/
+  version: 1.0.4
+digest: sha256:b5f201fb1d65de74648b1f61f28ee14c0ae326774a1274645d6b9922e3b98ff7
+generated: "2024-12-12T22:39:48.600898+03:00"
